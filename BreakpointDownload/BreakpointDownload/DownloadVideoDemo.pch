@@ -1,0 +1,17 @@
+//
+//  DownloadVideoDemo.pch
+//  DownloadVideoDemo
+//
+//  Created by chuanglong03 on 2016/11/28.
+//  Copyright © 2016年 chuanglong. All rights reserved.
+//
+
+#ifndef DownloadVideoDemo_pch
+#define DownloadVideoDemo_pch
+
+#define PathOfDocument [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+#define TableNameOfDownloading @"Downloading"
+#define TableNameOfDownloadFinish @"DownloadFinish"
+#define WS(weakSelf)  __weak __typeof(&*self) weakSelf = self
+
+#endif

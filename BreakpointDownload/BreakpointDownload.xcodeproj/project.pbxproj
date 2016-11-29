@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6AF35A4B868488DE0F304F4 /* libPods-BreakpointDownload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B3B54BBF92E2500E1097C /* libPods-BreakpointDownload.a */; };
+		F775A8751DED51CA00C0E694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A8741DED51CA00C0E694 /* main.m */; };
+		F775A8781DED51CA00C0E694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A8771DED51CA00C0E694 /* AppDelegate.m */; };
+		F775A8801DED51CA00C0E694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F775A87F1DED51CA00C0E694 /* Assets.xcassets */; };
+		F775A8831DED51CA00C0E694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F775A8811DED51CA00C0E694 /* LaunchScreen.storyboard */; };
+		F775A88B1DED51F600C0E694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F775A88A1DED51F600C0E694 /* Main.storyboard */; };
+		F775A88E1DED520A00C0E694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A88D1DED520A00C0E694 /* ViewController.m */; };
+		F775A8921DED525300C0E694 /* ZYFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A8911DED525300C0E694 /* ZYFMDB.m */; };
+		F775A8951DED525E00C0E694 /* ZYDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A8941DED525E00C0E694 /* ZYDownloadModel.m */; };
+		F775A8981DED526700C0E694 /* ZYDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A8971DED526700C0E694 /* ZYDownload.m */; };
+		F775A89B1DED527500C0E694 /* ZYDownloadManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = F775A89A1DED527500C0E694 /* ZYDownloadManagement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33C840CB67A4048851D8B208 /* Pods-BreakpointDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakpointDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakpointDownload/Pods-BreakpointDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		68326E4926AE715E106A3FCF /* Pods-BreakpointDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakpointDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakpointDownload/Pods-BreakpointDownload.release.xcconfig"; sourceTree = "<group>"; };
+		E42B3B54BBF92E2500E1097C /* libPods-BreakpointDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BreakpointDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F775A8701DED51CA00C0E694 /* BreakpointDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakpointDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F775A8741DED51CA00C0E694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F775A8761DED51CA00C0E694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F775A8771DED51CA00C0E694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F775A87F1DED51CA00C0E694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F775A8821DED51CA00C0E694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F775A8841DED51CA00C0E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F775A88A1DED51F600C0E694 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F775A88C1DED520A00C0E694 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F775A88D1DED520A00C0E694 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F775A88F1DED521F00C0E694 /* DownloadVideoDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadVideoDemo.pch; sourceTree = "<group>"; };
+		F775A8901DED525300C0E694 /* ZYFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFMDB.h; sourceTree = "<group>"; };
+		F775A8911DED525300C0E694 /* ZYFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFMDB.m; sourceTree = "<group>"; };
+		F775A8931DED525E00C0E694 /* ZYDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDownloadModel.h; sourceTree = "<group>"; };
+		F775A8941DED525E00C0E694 /* ZYDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownloadModel.m; sourceTree = "<group>"; };
+		F775A8961DED526700C0E694 /* ZYDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDownload.h; sourceTree = "<group>"; };
+		F775A8971DED526700C0E694 /* ZYDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownload.m; sourceTree = "<group>"; };
+		F775A8991DED527500C0E694 /* ZYDownloadManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDownloadManagement.h; sourceTree = "<group>"; };
+		F775A89A1DED527500C0E694 /* ZYDownloadManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownloadManagement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F775A86D1DED51CA00C0E694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AF35A4B868488DE0F304F4 /* libPods-BreakpointDownload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDA0B7447C53D0AF93A91AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E42B3B54BBF92E2500E1097C /* libPods-BreakpointDownload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FCFEF5AFEA7E56CAC0ADCBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33C840CB67A4048851D8B208 /* Pods-BreakpointDownload.debug.xcconfig */,
+				68326E4926AE715E106A3FCF /* Pods-BreakpointDownload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F775A8671DED51CA00C0E694 = {
+			isa = PBXGroup;
+			children = (
+				F775A8721DED51CA00C0E694 /* BreakpointDownload */,
+				F775A8711DED51CA00C0E694 /* Products */,
+				6FCFEF5AFEA7E56CAC0ADCBA /* Pods */,
+				4EDA0B7447C53D0AF93A91AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F775A8711DED51CA00C0E694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F775A8701DED51CA00C0E694 /* BreakpointDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F775A8721DED51CA00C0E694 /* BreakpointDownload */ = {
+			isa = PBXGroup;
+			children = (
+				F775A8761DED51CA00C0E694 /* AppDelegate.h */,
+				F775A8771DED51CA00C0E694 /* AppDelegate.m */,
+				F775A88C1DED520A00C0E694 /* ViewController.h */,
+				F775A88D1DED520A00C0E694 /* ViewController.m */,
+				F775A8931DED525E00C0E694 /* ZYDownloadModel.h */,
+				F775A8941DED525E00C0E694 /* ZYDownloadModel.m */,
+				F775A8901DED525300C0E694 /* ZYFMDB.h */,
+				F775A8911DED525300C0E694 /* ZYFMDB.m */,
+				F775A8961DED526700C0E694 /* ZYDownload.h */,
+				F775A8971DED526700C0E694 /* ZYDownload.m */,
+				F775A8991DED527500C0E694 /* ZYDownloadManagement.h */,
+				F775A89A1DED527500C0E694 /* ZYDownloadManagement.m */,
+				F775A87F1DED51CA00C0E694 /* Assets.xcassets */,
+				F775A88A1DED51F600C0E694 /* Main.storyboard */,
+				F775A8811DED51CA00C0E694 /* LaunchScreen.storyboard */,
+				F775A8841DED51CA00C0E694 /* Info.plist */,
+				F775A88F1DED521F00C0E694 /* DownloadVideoDemo.pch */,
+				F775A8731DED51CA00C0E694 /* Supporting Files */,
+			);
+			path = BreakpointDownload;
+			sourceTree = "<group>";
+		};
+		F775A8731DED51CA00C0E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F775A8741DED51CA00C0E694 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F775A86F1DED51CA00C0E694 /* BreakpointDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F775A8871DED51CA00C0E694 /* Build configuration list for PBXNativeTarget "BreakpointDownload" */;
+			buildPhases = (
+				4305B3B594B8DED8DD1E9F77 /* [CP] Check Pods Manifest.lock */,
+				F775A86C1DED51CA00C0E694 /* Sources */,
+				F775A86D1DED51CA00C0E694 /* Frameworks */,
+				F775A86E1DED51CA00C0E694 /* Resources */,
+				2160FDAED8E5B209AF22EEB6 /* [CP] Embed Pods Frameworks */,
+				D9E6DC36A7247EB809C7C4A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakpointDownload;
+			productName = BreakpointDownload;
+			productReference = F775A8701DED51CA00C0E694 /* BreakpointDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F775A8681DED51CA00C0E694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chuanglong;
+				TargetAttributes = {
+					F775A86F1DED51CA00C0E694 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F775A86B1DED51CA00C0E694 /* Build configuration list for PBXProject "BreakpointDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F775A8671DED51CA00C0E694;
+			productRefGroup = F775A8711DED51CA00C0E694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F775A86F1DED51CA00C0E694 /* BreakpointDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F775A86E1DED51CA00C0E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F775A88B1DED51F600C0E694 /* Main.storyboard in Resources */,
+				F775A8831DED51CA00C0E694 /* LaunchScreen.storyboard in Resources */,
+				F775A8801DED51CA00C0E694 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2160FDAED8E5B209AF22EEB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakpointDownload/Pods-BreakpointDownload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4305B3B594B8DED8DD1E9F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E6DC36A7247EB809C7C4A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakpointDownload/Pods-BreakpointDownload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F775A86C1DED51CA00C0E694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F775A88E1DED520A00C0E694 /* ViewController.m in Sources */,
+				F775A8781DED51CA00C0E694 /* AppDelegate.m in Sources */,
+				F775A8981DED526700C0E694 /* ZYDownload.m in Sources */,
+				F775A8751DED51CA00C0E694 /* main.m in Sources */,
+				F775A8951DED525E00C0E694 /* ZYDownloadModel.m in Sources */,
+				F775A8921DED525300C0E694 /* ZYFMDB.m in Sources */,
+				F775A89B1DED527500C0E694 /* ZYDownloadManagement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F775A8811DED51CA00C0E694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F775A8821DED51CA00C0E694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F775A8851DED51CA00C0E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F775A8861DED51CA00C0E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F775A8881DED51CA00C0E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C840CB67A4048851D8B208 /* Pods-BreakpointDownload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BreakpointDownload/DownloadVideoDemo.pch";
+				INFOPLIST_FILE = BreakpointDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong.BreakpointDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F775A8891DED51CA00C0E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68326E4926AE715E106A3FCF /* Pods-BreakpointDownload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BreakpointDownload/DownloadVideoDemo.pch";
+				INFOPLIST_FILE = BreakpointDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong.BreakpointDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F775A86B1DED51CA00C0E694 /* Build configuration list for PBXProject "BreakpointDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F775A8851DED51CA00C0E694 /* Debug */,
+				F775A8861DED51CA00C0E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F775A8871DED51CA00C0E694 /* Build configuration list for PBXNativeTarget "BreakpointDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F775A8881DED51CA00C0E694 /* Debug */,
+				F775A8891DED51CA00C0E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F775A8681DED51CA00C0E694 /* Project object */;
+}
